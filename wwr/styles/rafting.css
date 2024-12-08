@@ -1,0 +1,48 @@
+:root {
+    --primary-color: #133C55;
+    --secondary-color: #386FA4;
+    --accent1-color: #59A5D8;
+    --accent2-color: #84D2F6;
+}
+
+main {
+    max-width: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Prata';
+    color: var(--primary-color);
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--secondary-color);
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.hero {
+    margin: 10px auto;
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+}
+
+article {
+    position: absolute;
+}
+
+article img {
+    width: 50;
+    float: right;
+}
