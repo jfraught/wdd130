@@ -66,16 +66,18 @@
                     </div>
                     <div class="pair">
                         <label>Purpose</label>
-                        <select name="purpose" id="purpose">
-                            <option value="" disabled selected>Select your option</option>
-                            <option value="general-inquiry/">General Inquiry</option>
-                            <option value="reservation-question">Reservation Question</option>
-                            <option value="website-suggestion">Website Suggestion</option>
-                        </select>
+                        <div class="purpose">
+                            <input type="radio" id="general-inquiry" name="general-inquiry" value="general-inquiry">
+                            <label for="general-inquiry">General Inquiry</label><br>
+                            <input type="radio" id="reservation-question" name="reservation-question" value="reservation-question">
+                            <label for="reservation-question">Reservation Question</label><br>
+                            <input type="radio" id="website-suggestion" name="website-suggestion" value="website-suggestion">
+                            <label for="website-suggestion">Website Suggestion</label>
+                        </div>
                     </div> 
                     <div class="pair">   
                         <label>Message</label>  
-                        <textarea name="q2" id="q2" rows="4" placeholder="Reason for inquiry."></textarea>
+                        <textarea name="q2" id="q2" rows="4" placeholder="Please put your message to the team here."></textarea>
                     </div>
                     
                     <div class="check">

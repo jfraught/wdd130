@@ -176,7 +176,7 @@ figcaption {
     font-size: 1.2em;
     color: #333;
     background-color: #fff;
-    width: 650px;
+    width: 550px;
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid rgb(0 0 0 / 0.1);
@@ -198,6 +198,15 @@ input, select, textarea {
    display: grid;
    grid-template-columns: 1fr 2fr;
    align-items: center;
+}
+
+.purpose {
+    display: flex;
+}
+
+input[type="radio"] {
+    width: 22px;
+    height: 22px;
 }
 
 .checkbox {
