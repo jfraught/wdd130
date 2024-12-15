@@ -236,3 +236,7 @@ button {
 button:hover {
     background-color: var(--secondary-color);
 }
+
+.wireframe {
+    color: #fff;
+}
