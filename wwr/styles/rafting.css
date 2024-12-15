@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 
-p, li {
+p, li, figcaption {
     font-family: 'Open Sans', sans-serif;
     color: var(--secondary-color);
 }
@@ -141,7 +141,7 @@ footer nav img {
     text-align: center;
 }
 
-.adventure, .employees {
+.images {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -159,7 +159,14 @@ footer nav img {
     align-items: center;
 }
 
-.adventure-images img, .employee-images img { 
+.memory-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+
+.images img { 
     width: 200px;
     height: auto;
 }
@@ -170,7 +177,7 @@ figcaption {
 
 .sign-up {
     margin: 0;
-    padding: 0;
+    padding: 10px 0 0 0;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
